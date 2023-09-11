@@ -1,6 +1,8 @@
 import styles from './Filtro.module.scss';
 import {CgSearch} from 'react-icons/cg'
 
+//filtro referente ao buscados
+
 interface Props {
     busca: string,
     setBusca: React.Dispatch<React.SetStateAction<string>>
@@ -13,7 +15,11 @@ export default function Filtro({busca, setBusca}: Props) {
                 value={busca}
                 onChange={(evento) => setBusca(evento.target.value)}
             />
-            <CgSearch/>
+            <CgSearch
+            
+            size={20}
+            color= '#4c4d5e'
+            />
         </div>
     );
 

@@ -17,8 +17,8 @@
     justify-content: center;
     width: 150px;
     &--ativo {
-      background-color: $blue;
-      color: white;
+      background-color: #64D65D;
+      color: rgba(4, 65, 24, 0.521);
     }
     &:hover {
       cursor: pointer;

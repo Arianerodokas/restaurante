@@ -12,6 +12,12 @@
   @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
     padding: 20px $padding-horizontal-md;
   }
+  &__img {
+    width: 10px;
+    right: 10px;
+    display: flex;
+    margin-right: "15%";
+  }
 }
 
 .header {
@@ -51,7 +57,7 @@
     padding: 50px $padding-horizontal-md;
   }
   &__titulo {
-    color: $dark;
+    color: #749072;
     font-size: 3rem;
     margin-bottom: 30px;
   }
